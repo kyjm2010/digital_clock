@@ -1,0 +1,112 @@
+/* style.css for digital clock */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+body {
+    background-image: " ";
+    background-position: center right;
+    color: #ffffff;
+}
+
+.clock {
+    opacity: .8;
+    height: 50vh;
+    /* DS-Digital is a font I downloaded and installed from https://www.dafont.com/ds-digital.font  */
+    font-family: 'DS-Digital', 'Space Mono', monospace;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(202, 200, 200);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(77, 75, 75) 100%);
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+    padding: 50px;
+    z-index: -2;
+    color: rgb(0, 255, 60);
+    -webkit-box-reflect: below 14px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255, 255, 255, 0.3)));
+}
+
+.date {
+    display: block;
+    font-size: 6.2rem;
+    z-index: 1;
+}
+
+.time {
+    display: block;
+    font-size: 10rem;
+    z-index: 1;
+    margin-bottom: 3rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+
+}
+
+button:hover {
+    background: #333333;
+}
+
+.container {
+    padding: 50px;
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+.dropbtn, .btn {
+    background-color: rgb(212, 214, 216);
+    color: rgb(49, 49, 49);
+    padding: 16px;
+    width: 230px;
+    margin-top: 1em;
+    margin-left: 1em;
+    font-size: 1.2em;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.dropdown-menu{
+    background: none;
+    border: none;
+}
+
+.dropdown-item {
+    height: 75px;
+    width: 220px;
+    border: 1px solid gray;
+    background-color: white;
+    margin-top: .5em;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.btnFace {
+    position: relative;
+    display: inline-block;
+}
+
+.radio-btn{
+    background-color: rgb(212, 214, 216);
+    color: rgb(49, 49, 49);
+    padding: 16px;
+    width: 215px;
+    margin-top: 1em;
+    margin-left: 1em;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.radio-btn:hover {
+    background-color: rgb(49, 49, 49);
+    color: rgb(212, 214, 216);
+}
