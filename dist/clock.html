@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTEC 126 Digital Clock</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="clockDisplay" class="clock">
+            <div id="clockDate" class="date"></div>
+            <div id="clockTime" class="time"></div>
+        </div>
+        <div class="buttons">
+        <div class="btnFace">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Background Colors
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button class="dropdown-item" id="light-grey">Light Grey</button>
+                <button class="dropdown-item" id="black">Black</button>
+                <button class="dropdown-item" id="white">White</button>
+            </div>
+        </div>
+        <div class="btnFace" class="button">
+            <div id="onOff" class="dropbtn">Power</div>
+        </div>
+        <div class="btnFace" class="button">
+            <div id="radio-btn" class="dropbtn">Radio</div>
+        </div>
+        <div class="btnFace">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Display Colors
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button id="orange" class="dropdown-item">Orange</button>
+                <button id="blue" class="dropdown-item">Blue</button>
+                <button id="green" class="dropdown-item">Green</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script defer src="js/script.js"></script>
+</body>
+
+</html>
