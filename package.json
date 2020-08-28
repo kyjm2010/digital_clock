@@ -13,8 +13,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://kyjm2010.github.io/digital_clock",
+  "homepage":"https://kyjm2010.github.io/digital_clock",
   "bugs": {
     "url": "https://github.com/kyjm2010/digital_clock/issues"
-  }
+  },
+  "homepage": "https://github.com/kyjm2010/digital_clock#readme"
+  
 }
